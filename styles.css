@@ -1,39 +1,105 @@
-.index-body h1{
-    color: darkslateblue;
-    font-family: "Georgia", 'Times New Roman', Times, serif;
+/* index page styling */
+.index-container h1 {
+    font-family: "Copperplate", "Papyrus", fantasy;
     text-align: center;
     text-decoration: underline;
+    color: darkslategrey;
 }
-body {
-    background-color: honeydew;
+.index-container {
+    background-color: lightblue;
+    
+}
+.recipe-links a {
+    line-height: 1.5;
+    text-decoration: none   ;
+    color: slateblue;
+    font-size: 18px;
 }
 .recipe-links {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style: none;
+}
+/* air fryer sweet potato styling */
+
+.pot-container {
+    background-color: lightsalmon;
+    border-style: solid;
+    border-width: medium;
+    border-color: azure;
+}
+.potato-body h1 {
+    font-family: "copperplate", "papyrus", fantasy  ;
+    text-align: center;
+}
+.pot-container img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+.potato-body h2 {
+    font-family: "Copperplate", "Papyrus", fantasy;
+}
+.potato-body .description {
+    font-family: "Courier New", "Courier", monospace;
+    font-weight: bold;
+
+}
+.potato-ingredients ul {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+}
+.potato-steps ol {
+    line-height: 1.2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
-    text-decoration: none;
 }
-.potato-body {
-    background-color: whitesmoke;
+/*lasagna style */
+
+.lasagna-body {
+    background-color: bisque;
+    border-style: solid;
+    border-width: 4px;
+    border-color: chocolate;
 }
-.potato-ingredients {
-    color: blue;
+.lasagna-body h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
-.potato-body img {
+.lasagna-body img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    
+    width: auto;
 }
-.potato-body h1 {
-    color: deepskyblue;
-    text-decoration: underline;
+.lasagna-body h2 {
     text-align: center;
+    text-decoration: wavy underline;
 }
-.potato-ingredients h2 {
-    color: darkblue;
+/*Chicken Styles*/
+
+.chicken-body {
+    background-color: cornflowerblue;
 }
-.potato-steps ol {
-    line-height: 25px;
-    list-style-type: upper-roman;
+.chicken-body h1 {
+    text-align: center  ;
+    color: blue;
+}
+.chicken-body img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+.chicken-body h2 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.chx-ingr ul {
+    line-height: 1.5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.chx-steps ol{
+    line-height: 1.3;
+    
 }
